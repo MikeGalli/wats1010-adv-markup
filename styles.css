@@ -1,1 +1,91 @@
 /* Styles for the Advanced Markup assignment. */
+
+body{
+    background-image: url("TamarindTreeLight_V3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.smalltext{
+  font-size: smaller;
+}
+a.active{
+  font-weight: bold;
+}
+.top-nav li{
+    display: inline;
+}
+
+#content{
+  padding: 1rem;
+  margin: 50px;
+  background-color: #ffffff;
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.6);
+
+}
+p.bio-photo{
+  background-size: 300px;
+  background-color: #ffffff;
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.2);
+  padding: 2rem;
+}
+
+#sidebarhome{
+  width: 250px;
+  float: right;
+/*   background: pink; */
+  margin-right: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+
+}
+
+#sidebarinterpretation{
+  background-color: #ffffff;
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.6);
+  
+  
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 20rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  width: 250px;
+  float: right;
+/*   background: lightgoldenrodyellow; */
+  position: relative;
+}
+
+#sidebarabout{
+  width: 250px;
+  float: right;
+/*   background: pink; */
+  margin-right: 10rem;
+  margin-top: 11rem;
+  margin-bottom: 1rem;
+}
+
+
+
+
+ul.poem{
+/*   background-color: lightgreen; */
+  text-indent: -1em;
+  width: 450px;
+  font-size: larger;
+  list-style-type: none;
+  line-height: 1.5;
+  margin-top: 3rem;
+  
+}
+
+table#selected_works{
+   text-align: left;
+}
+
+
+.bottom-nav li{
+    display: inline;
+}
